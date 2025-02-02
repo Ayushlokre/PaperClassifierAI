@@ -6,8 +6,8 @@ import logging
 # Reduce Pathway logging verbosity
 logging.getLogger("pathway").setLevel(logging.WARNING)
 
-SERVICE_ACCOUNT_FILE = '/home/vboxuser/Desktop/KDSH_Dataset_2025/credentials.json'
-FOLDER_ID = '1XsqPkNg4gOaRLt5ht10CxihZFYqFqpYK'
+SERVICE_ACCOUNT_FILE = 'file.json'
+FOLDER_ID = 'folder_id'
 
 # Step 1: Read data from Google Drive folder using Pathway
 # table = pw.io.gdrive.read(
